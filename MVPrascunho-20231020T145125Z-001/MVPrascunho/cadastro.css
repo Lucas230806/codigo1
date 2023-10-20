@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tela-cadastro{
+    display: flex;
+    background-color: #FFC3A1;
+    max-width: 100vw;
+    height: 100vh;
+    color: brown;
+    font-size: xx-large;
+}
+
+.img-cadaster{
+    width: 50%;
+}
+.img-cadaster img{
+    width: 100%;
+    height: 100vh;
+}
+.login-register{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 6rem;
+}
+.logo-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.input-register{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    
+}
+.btn-register{
+    background-color: #FFB185;
+    border: none;
+    border-radius: 23rem;
+    padding: 2rem;
+    padding-left: 6rem ;
+    padding-right: 6rem ;
+    box-shadow: 2px 5px #A75D5D;
+    font-size: 1.4rem;
+}
+
